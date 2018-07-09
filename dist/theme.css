@@ -24993,23 +24993,28 @@ you can use the generic selector below, but it's slower:
   }
 }
 .footer-signup form input[type="email"],
-.footer-signup form input[type="password"] {
+.footer-signup form input[type="password"],
+.footer-signup form input[type="text"]{
   height: 46px;
   font-size: 15px;
 }
 .footer-signup form input[type="email"]::-webkit-input-placeholder,
+.footer-signup form input[type="text"]::-webkit-input-placeholder,
 .footer-signup form input[type="password"]::-webkit-input-placeholder {
   color: #999;
 }
 .footer-signup form input[type="email"]:-moz-placeholder,
+.footer-signup form input[type="text"]:-moz-placeholder,
 .footer-signup form input[type="password"]:-moz-placeholder {
   color: #999;
 }
 .footer-signup form input[type="email"]::-moz-placeholder,
+.footer-signup form input[type="text"]::-moz-placeholder,
 .footer-signup form input[type="password"]::-moz-placeholder {
   color: #999;
 }
 .footer-signup form input[type="email"]:-ms-input-placeholder,
+.footer-signup form input[type="text"]:-ms-input-placeholder,
 .footer-signup form input[type="password"]:-ms-input-placeholder {
   color: #999;
 }
